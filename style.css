@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.sedan-sc-regular {
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+html {
+  font-size: 1.25rem;
+}
+
+body {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  background-color: brown;
+  color: white;
+  height: 80px;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 40px;
+}
+
+main {
+  display: grid;
+  justify-content: center;
+  margin: auto;
+  max-width: 600px;
+}
+
+section {
+  width: 100%;
+}
+
+article {
+  display: grid;
+  background-color: lightseagreen;
+  margin: 15px 0 20px 0;
+  border-radius: 10px;
+  box-shadow: 3px 3px 15px lightgray;
+}
+
+article:nth-child(odd) {
+  background-color: lightcoral;
+}
+
+article p {
+  justify-self: center;
+  margin: 25px;
+}
+
+article h4 {
+  justify-self: right;
+  margin: 0 25px 25px 25px;
+  font-size: 0.9rem;
+}
+
+.no-margin {
+  margin: -25px;
+}
